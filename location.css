@@ -1,0 +1,48 @@
+/* sets the margin of all the element to 10px on all sides*/
+
+
+body{
+background-color: skyblue;
+}
+
+#inside{
+        style:font-family:sans-serif;
+        background-color:white;
+        width:60%;
+        border:1px solid;
+        margin-top: 100px;
+        border-radius: 40px;
+}
+
+
+
+
+
+
+button{
+    font-size: 20px;
+    border: transparent;
+    width: fit-content;
+    background-color: seagreen;
+    border-radius: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+
+}
+
+/* The calculator panel */
+
+
+
+
+/* Floating icon for the home button */
+
+    
+footer {
+    background-color:rgb(240, 234, 245);
+    margin-top: 20px;
+}
