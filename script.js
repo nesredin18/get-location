@@ -24,7 +24,7 @@ var output = document.getElementById("output");
         if (xhr.readyState == 4 && xhr.status == 200) {
             var response = JSON.parse(xhr.responseText);
             console.log(response);
-            var city = response.address.town;
+            var city = response.address.state_district;
             var country=response.address.country;
             var output = "<br>Your current location details<br>" + "Latitude: " + position.coords.latitude + "<br>" + "Longitude: " +    position.coords.longitude +"<br>City: " + city +"<br>Country: " + country;  
        document.getElementById("output").innerHTML = output;
